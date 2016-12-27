@@ -1,2 +1,29 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.navbar {
+  border-radius: 0;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  margin-bottom: 0;
+  background: url('fabric_of_squares_gray.png');
+}
+
+.navbar-inverse .navbar-nav > li > a {
+font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;  
+font-weight: 100;
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: 'Anton', sans-serif; 
+  color: #00BA38;
+}
+
+.hero {
+  background: url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+}
