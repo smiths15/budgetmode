@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+#user authentication
+gem 'devise', '>=3.2.4'
+
+#Adding form
+gem 'simple_form'
+
 #Twitter bootstrap
 gem 'bootstrap-sass', '~>3.3.5.1'
 gem 'sprockets', '2.11.0'
