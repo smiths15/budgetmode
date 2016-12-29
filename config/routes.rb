@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   devise_for :users
   root 'static_pages#index'
 
+  namespace :instructor do
+    resources :courses, only: [:new, :create, :show]
+  end 
   resources :users, only: :show
 
   # The priority is based upon order of creation: first created -> highest priority.
