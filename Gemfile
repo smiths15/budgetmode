@@ -1,5 +1,13 @@
 source 'https://rubygems.org'
 
+#adding figaro to hide pswds
+gem 'figaro'
+
+#adding fog gem so carrierwave can communicate with AWS
+gem 'fog'
+
+#Carrierwave gem to install images
+gem 'carrierwave', '~> 1.0'
 #user authentication
 gem 'devise', '>=3.2.4'
 
