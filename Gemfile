@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#mini majik gem for manipulation
+gem 'mini_magick', '~> 4.3.1'
+
 #adding figaro to hide pswds
 gem 'figaro'
 
