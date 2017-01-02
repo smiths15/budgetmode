@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 #Carrierwave AWS to upload video better
 gem 'carrierwave-aws'
 
-#mini majik gem for manipulation
+#mini majik gem for image manipulation
 gem 'mini_magick', '~> 4.3.1'
 
 #adding figaro to hide pswds
