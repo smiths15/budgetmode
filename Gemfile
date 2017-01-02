@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Carrierwave AWS to upload video better
+gem 'carrierwave-aws'
+
 #mini majik gem for manipulation
 gem 'mini_magick', '~> 4.3.1'
 
