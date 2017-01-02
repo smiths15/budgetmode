@@ -15,7 +15,18 @@ font-weight: 100;
 color: black;
 }
 
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;  
+  font-weight: 100;
+  color:#00BA38;
+}
+
 .navbar-inverse .navbar-brand {
+  font-family: 'Anton', sans-serif; 
+  color: #00BA38;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   font-family: 'Anton', sans-serif; 
   color: #00BA38;
 }
@@ -93,3 +104,27 @@ body {
   padding: 8px;
   margin: 10px;
 }
+
+.lesson {
+  background-color:black;
+}
+
+.lesson a {
+  color:white;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;  
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.lesson a b {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+}
+
+
