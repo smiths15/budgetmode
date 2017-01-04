@@ -7,7 +7,7 @@ before_action :authenticate_user!
   end
 
 private
-
+   
   def current_course
     @current_course ||= Course.find(params[:course_id])
   end
