@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Installing to re-order lessons
+gem 'ranked-model'
+
 #Stripe for payment processing
 gem 'stripe'
 
