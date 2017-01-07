@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Stripe for payment processing
+gem 'stripe'
+
 #Carrierwave AWS to upload video better
 gem 'carrierwave-aws'
 
