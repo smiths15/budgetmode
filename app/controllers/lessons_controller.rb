@@ -9,9 +9,9 @@ class LessonsController < ApplicationController
   private
 
   def require_enrollment_to_view
-    enrolled = current_user.enrollment_ids & current_lesson.section.course.enrollment_ids
-    if enrolled.empty?
-      redirect_to course_path(current_lesson.section.course_id), alert: 'Error Message Here'  
+    current_course = current_lesson.section.course
+    if current_user.enrolled_in?(current_course) != true
+      redirect_to course_path(current_course), alert: 'Please enroll to see lesson details'  
     end  
   end
 
