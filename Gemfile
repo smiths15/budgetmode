@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#JQuery for rails
+gem 'jquery-ui-rails'
+
 #Installing to re-order lessons
 gem 'ranked-model'
 
