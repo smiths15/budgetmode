@@ -127,4 +127,39 @@ body {
   padding: 20px;
 }
 
+ul {
+  list-style-type: none;
+}
 
+.section-li {
+  border: 1px solid;
+  border-color: #8c8c8c #8c8c8c #8c8c8c #8c8c8c;
+  padding: 20px;  
+  margin: 20px;
+}
+
+ul .header {
+  font-size: 25px;
+}
+
+ul .header .glyphicon {
+  font-size: 20px;
+}
+
+.lessons_instructor li {
+  background: black;
+  color: white;
+  margin: 10px;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-weight: 100;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.lessons_instructor li b {
+  font-size: 25px;
+  font-weight:100;
+}
+.lessons_instructor li p {
+  margin: 0;
+}
