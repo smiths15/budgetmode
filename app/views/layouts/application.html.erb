@@ -49,17 +49,7 @@
             <li><%= link_to 'Sign In', new_user_session_path %></li>
             <li><%= link_to 'Sign Up', new_user_registration_path %></li>
           <% end %>
-          
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li>
+  
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -82,10 +72,41 @@
 </div>
 <div id="footer">
   <div class="container">
-    <b> Teachers </b>
-    <br />
-    <%= link_to 'Teach a Course', new_instructor_course_path %>
-  </div>
+    <div class="col-xs-12 col-sm-3">
+      <b> Teachers </b>
+      <br />
+      <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <br />
+      <%= link_to 'My Dashboard', dashboard_path %>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b> About </b>
+      <br />
+      <%= link_to 'About BudgetMode', '#' %>
+      <br />
+      <%= link_to 'Privacy Policy', '#' %>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b> Contact </b>
+      <br />
+      smith.saintil@gmail.com
+    </div>
+    <div class="col-xs-12 col-sm-3 social">
+      <b> Social </b>
+      <br />
+      <br />
+      <%= link_to 'https://www.linkedin.com/in/smith-saintil-92705231' do %>  
+        <%= image_tag 'linkedin.png', class: 'social-button' %>
+      <% end %>
+      
+      <%= link_to 'https://github.com/smiths15' do %>      
+        <%= image_tag 'github.png', class: 'social-button' %>
+      <% end %>
+      
+      <%= link_to 'https://www.facebook.com/smith.saintil.7' do %>
+        <%= image_tag 'facebook.png', class: 'social-button' %>
+      <% end %>
+    </div>
 </div>
 
 </body>
