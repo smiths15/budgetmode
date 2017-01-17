@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .frosty h2 {
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
   font-weight: 100;
-   text-shadow: rgba(0,0,0,0.95) 1px 1px; 
+  text-shadow: rgba(0,0,0,0.95) 1px 1px; 
 }
 
 .btn {
@@ -164,3 +164,28 @@ ul .header .glyphicon {
   margin: 0;
 }
 
+.aboutBM {
+  font-family: 'Anton', sans-serif; 
+  color: #00BA38;
+}
+
+.about {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;  
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.privacy {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;  
+  font-weight: 100;
+  font-size: 15px; 
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color:#00BA38;
+}
+
+a {
+  color: black;
+}
